@@ -1,0 +1,168 @@
+
+> ibsar@0.1.0 dev
+> next dev
+
+▲ Next.js 16.2.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.100.5:3000
+✓ Ready in 1658ms
+
+ GET / 200 in 1110ms (next.js: 812ms, application-code: 298ms)
+[browser] Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly. (<anonymous>)
+✓ Compiled in 5s
+ GET / 200 in 61ms (next.js: 39ms, application-code: 22ms)
+✓ Compiled in 94ms
+ GET / 200 in 76ms (next.js: 55ms, application-code: 21ms)
+✓ Compiled in 87ms
+ GET / 200 in 55ms (next.js: 33ms, application-code: 22ms)
+✓ Compiled in 88ms
+ GET / 200 in 47ms (next.js: 26ms, application-code: 21ms)
+✓ Compiled in 292ms
+✓ Compiled in 75ms
+ GET / 200 in 52ms (next.js: 35ms, application-code: 17ms)
+ GET / 200 in 226ms (next.js: 3ms, application-code: 223ms)
+[browser] Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly. (<anonymous>)
+ GET /booking 200 in 84ms (next.js: 27ms, application-code: 57ms)
+ GET / 200 in 91ms (next.js: 3ms, application-code: 87ms)
+[browser] Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly. (<anonymous>)
+ GET / 200 in 147ms (next.js: 11ms, application-code: 136ms)
+ GET / 200 in 208ms (next.js: 12ms, application-code: 195ms)
+[browser] Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly. ([native code])
+ GET /booking 200 in 142ms (next.js: 15ms, application-code: 127ms)
+✓ Compiled in 140ms
+ GET / 200 in 100ms (next.js: 43ms, application-code: 57ms)
+ GET / 200 in 27ms (next.js: 2ms, application-code: 25ms)
+ GET / 200 in 82ms (next.js: 11ms, application-code: 71ms)
+✓ Compiled in 333ms
+✓ Compiled in 226ms
+✓ Compiled in 37ms
+ GET / 200 in 172ms (next.js: 134ms, application-code: 38ms)
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+✓ Compiled in 80ms
+ GET / 200 in 266ms (next.js: 64ms, application-code: 203ms)
+✓ Compiled in 51ms
+ GET / 200 in 277ms (next.js: 199ms, application-code: 77ms)
+✓ Compiled in 149ms
+✓ Compiled in 156ms
+ GET / 200 in 245ms (next.js: 191ms, application-code: 53ms)
+ GET / 200 in 112ms (next.js: 9ms, application-code: 104ms)
+⨯ ./app/components/Services.jsx:127:7
+Expected corresponding JSX closing tag for <SectionScene>
+  [90m125 |[0m         </div>
+  [90m126 |[0m       </div>
+[31m[1m>[0m [90m127 |[0m     </section>
+  [90m    |[0m       [31m[1m^^^^^^^[0m
+  [90m128 |[0m   );
+  [90m129 |[0m }
+  [90m130 |[0m
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./app/components/Services.jsx
+    ./app/page.jsx
+
+
+ GET / 500 in 1204ms (next.js: 916ms, application-code: 287ms)
+⨯ ./app/components/Services.jsx:127:7
+Expected corresponding JSX closing tag for <SectionScene>
+  [90m125 |[0m         </div>
+  [90m126 |[0m       </div>
+[31m[1m>[0m [90m127 |[0m     </section>
+  [90m    |[0m       [31m[1m^^^^^^^[0m
+  [90m128 |[0m   );
+  [90m129 |[0m }
+  [90m130 |[0m
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./app/components/Services.jsx
+    ./app/page.jsx
+
+
+ GET / 500 in 8ms (next.js: 4ms, application-code: 5ms)
+⨯ ./app/components/Services.jsx:127:7
+Expected corresponding JSX closing tag for <SectionScene>
+  [90m125 |[0m         </div>
+  [90m126 |[0m       </div>
+[31m[1m>[0m [90m127 |[0m     </section>
+  [90m    |[0m       [31m[1m^^^^^^^[0m
+  [90m128 |[0m   );
+  [90m129 |[0m }
+  [90m130 |[0m
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./app/components/Services.jsx
+    ./app/page.jsx
+
+
+ GET / 500 in 50ms (next.js: 20ms, application-code: 31ms)
+[browser] Uncaught Error: ./app/components/Services.jsx:127:7
+Expected corresponding JSX closing tag for <SectionScene>
+  125 |         </div>
+  126 |       </div>
+> 127 |     </section>
+      |       ^^^^^^^
+  128 |   );
+  129 | }
+  130 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./app/components/Services.jsx
+    ./app/page.jsx
+
+
+    at <unknown> (Error: ./app/components/Services.jsx:127:7)
+    at <unknown> (Error: (./app/components/Services.jsx:127:7)
+ GET / 200 in 240ms (next.js: 50ms, application-code: 190ms)
+ GET / 200 in 229ms (next.js: 1379µs, application-code: 227ms)
+✓ Compiled in 172ms
+ GET / 200 in 106ms (next.js: 82ms, application-code: 25ms)
+ GET / 200 in 240ms (next.js: 5ms, application-code: 234ms)
+[browser] You are trying to animate opacity from "undefined" to "0". undefined is not an animatable value - to enable this animation set undefined to a value animatable to 0 via the `style` property. (<anonymous>)
+[browser] Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly. (<anonymous>)
+ GET / 200 in 110ms (next.js: 4ms, application-code: 105ms)
+[browser] Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly. (<anonymous>)
+ GET /booking 200 in 67ms (next.js: 12ms, application-code: 55ms)
+ GET / 200 in 88ms (next.js: 3ms, application-code: 86ms)
+[browser] Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly. (<anonymous>)
+ GET / 200 in 249ms (next.js: 12ms, application-code: 237ms)
+[browser] Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly. ([native code])
+✓ Compiled in 158ms
+✓ Compiled in 134ms
+ GET / 200 in 265ms (next.js: 54ms, application-code: 210ms)
+ GET / 200 in 180ms (next.js: 7ms, application-code: 173ms)
+ GET / 200 in 34ms (next.js: 2ms, application-code: 32ms)
+✓ Compiled in 59ms
+ GET / 200 in 74ms (next.js: 49ms, application-code: 26ms)
+✓ Compiled in 133ms
+ GET / 200 in 108ms (next.js: 57ms, application-code: 51ms)
+ GET / 200 in 184ms (next.js: 6ms, application-code: 177ms)
+[browser] You are trying to animate opacity from "undefined" to "0". undefined is not an animatable value - to enable this animation set undefined to a value animatable to 0 via the `style` property. (<anonymous>)
+[browser] Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly. (<anonymous>)
+ GET / 200 in 166ms (next.js: 2ms, application-code: 163ms)
+[browser] Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly. (<anonymous>)
+ GET /booking 200 in 152ms (next.js: 64ms, application-code: 88ms)
+ GET / 200 in 111ms (next.js: 2ms, application-code: 108ms)
+[browser] Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly. (<anonymous>)
+ GET / 200 in 135ms (next.js: 15ms, application-code: 120ms)
+[browser] Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly. ([native code])
+ GET /booking 200 in 154ms (next.js: 12ms, application-code: 143ms)
+ GET / 200 in 647ms (next.js: 241ms, application-code: 407ms)
+[browser] Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly. ([native code])
+ GET / 200 in 145ms (next.js: 12ms, application-code: 133ms)
+[browser] Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly. ([native code])
+✓ Compiled in 510ms
+ GET / 200 in 360ms (next.js: 281ms, application-code: 79ms)
+✓ Compiled in 88ms
+ GET / 200 in 90ms (next.js: 67ms, application-code: 23ms)
+ GET / 200 in 713ms (next.js: 12ms, application-code: 701ms)
